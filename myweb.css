@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Trad:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Playwrite FR Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-sizing: border-box;
+    color:white;
+    
+}
+
+
+body{
+    
+    width:100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723910106/1723904558776_wk8e0n.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+
+nav{
+    display:flex;
+    flex-direction: row;
+    position:fixed;
+    top:0;
+    border:solid 1px white;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.694);
+    width: 100%;
+    
+    
+    
+   
+}
+
+
+
+.navi{
+    display: flex;
+    justify-content:space-around;
+    padding:0px 45px 4px 45px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(251, 0, 255);  
+     
+}
+    
+    
+    
+.home{
+  margin-left: 70%;
+}
+
+@keyframes navi-start{
+  0%{
+    
+    color:rgb(255, 255, 255);
+    font-size:1.01rem;
+    text-shadow:0 0 5px rgb(0, 204, 255) ;
+    
+    background-color: rgba(0, 0, 0, 0.806);
+    max-width: 100%;
+  }
+
+}
+ nav:hover{
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.897);
+    max-width: 100%;
+
+ }
+
+
+.navi:hover{
+    transition: all 0.2s ease-in-out;
+    color:rgb(255, 255, 255);
+    font-size:1.01rem;
+    text-shadow:0 0 5px rgb(0, 204, 255) ;
+    
+}
+.first-photo{
+  padding-top: 10px;
+  margin-top: 9%;
+  margin-left:5% ;
+  animation: starting 3s;
+  filter: drop-shadow(0 0 5px rgb(234, 0, 255));
+  
+  
+}
+
+.logo{
+  position: sticky;
+  top:0;
+  z-index: 11;
+  padding-top: 10px;
+  margin-left:5% ;
+  animation: starting 4s;
+  
+
+}
+
+
+
+@keyframes starting{
+  from{
+    opacity: 0%;
+  }
+  to{
+    opacity: 100%;
+  }
+}
+
+
+
+.welcome{
+    margin-top: 20%;
+    margin-left: 5%;
+    
+    text-shadow: 0 0 5px red;
+    
+    
+}
+
+
+
+
+.welcome h1{
+    text-shadow: 0 0 2px white;
+
+}
+@keyframes welcome{
+  0%{
+    font-size: 7rem;
+    letter-spacing: 0px;
+    
+  }
+  50%{
+    font-size: 7.5rem;
+    letter-spacing: 10px;
+    margin-left: 3%;
+    
+  }
+  100%{
+    font-size: 7rem;
+    letter-spacing: 0px;
+    
+  }
+}
+.bag{
+  background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.92),rgba(0, 0, 0, 0.92));
+}
+
+/**************************************************ABOUT********************************************************************/
+
+
+
+.about{
+    padding-left: 20px;
+
+
+}
+
+
+.about h1{
+    padding-left: 20px;
+    font-family: "robotic";
+    font-size: 2.6rem;
+    text-decoration: underline red;
+    position: sticky;
+    top: 10.5%;
+    
+}
+.about img{
+    border: double rgb(178, 12, 255);
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    animation: imgglow 5s infinite;
+    
+}
+
+@keyframes imgglow{
+  0%{
+    box-shadow: 0 0 10px blue;
+  }
+  20%{
+    box-shadow: 0 0 10px skyblue;
+  }
+  40%{
+    box-shadow: 0 0 10px greenyellow;
+  }
+  60%{
+    box-shadow: 0 0 10px yellow;
+  }
+  80%{
+    box-shadow: 0 0 10px red;
+  }
+  100%{
+    box-shadow: 0 0 10px black;
+  }
+}
+.ab-para {
+    padding: 50px;
+    font-family: "Sora", sans-serif;
+    font-size: 1rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    
+}
+.myab{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(60, 58, 58, 0.927);
+    padding:20px;
+    margin: 30px;
+    border: solid rgb(39, 39, 39);
+    border-radius: 40px;
+    box-shadow: 0 0 20px black;
+    flex-wrap: nowrap;
+   
+}
+.Education{
+  font-family: "sora",sans-serif;
+  font-size:1.8rem;
+  background-color: rgb(153, 82, 220);
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 30%;
+
+}
+
+
+
+
+/* ***************************************************************CERT************************************************************************* */
+.cert{
+    padding-left: 20px;
+    margin-top: 100px;
+}
+.cert h1{
+    padding-left: 20px;
+    font-family: "robotic";
+    font-size: 2.6rem;
+    text-decoration: underline red;
+    position: sticky;
+    top: 10%;
+    z-index: 9;
+
+}
+
+.see{
+  display: flex;
+  justify-content:space-between;
+  position: sticky;
+    top: 10%;
+    z-index: 1;
+
+}
+.seeall{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  padding:20px;
+  text-decoration: underline;
+  text-shadow: 0 0 10px black;
+}
+
+.cardrow{
+    display: flex;
+    justify-content: space-around;
+    overflow-y: scroll;
+    scrollbar-width:none;
+    
+
+}
+
+  
+.flip-card {
+    padding-left: 40px;
+    margin-top: 25px;
+    background-color:transparent;
+    min-width: 270px;
+    min-height: 300px;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+  
+  
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    transition: all 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    box-shadow: 0 0 20px rgb(254, 0, 254);
+    border-radius:1.5rem;
+
+  }
+
+  
+
+
+  .flip-card-front1, .flip-card-back1,
+  .flip-card-front2,.flip-card-back2,
+  .flip-card-front3,.flip-card-back3,
+  .flip-card-front4,.flip-card-back4,
+  .flip-card-front5,.flip-card-back5,
+  .flip-card-front6,.flip-card-back6,
+  .flip-card-front7,.flip-card-back7
+  {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1.5px solid coral;
+    border-radius: 1.5rem;
+  }
+  .titleb1,.titleb2,.titleb3,
+  .titleb4,.titleb5,.titleb6,.titleb7
+  {
+    font-family:sans-serif;
+    font-weight: 900;
+    margin-top: 110%;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+    color: black;
+    text-decoration: none;
+    background:white;
+    border-radius:5px;
+  }
+
+  /* Card1 */
+
+  .flip-card-front1{
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1721315086/python_k0hpr5.webp);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .flip-card-back1{
+    background-color:  rgb(0, 254, 0);
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723903699/python-essentials-1.1_elcnhg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .titlef1{
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align:center;
+    margin-top:100%;
+    font-family: sans-serif;
+    text-shadow: 0 0 20px black;
+    position: relative;
+  }
+  
+  
+
+  /* CARD2 */
+
+
+  .flip-card-front2{
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1721925914/Cyber_Security_Basics_l9strp.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .flip-card-back2{
+    background-color: rgb(16, 251, 255);
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1721925727/introduction-to-cybersecurity_dmspiq.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .titlef2{
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align:center;
+    margin-top:100%;
+    font-family: sans-serif;
+    text-shadow: 0 0 20px black;
+    position: relative;
+  }
+
+
+  /* CARD 3 */
+
+
+  .flip-card-front3{
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723911209/prompteng_if0gk6.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .flip-card-back3{
+    background-color: rgb(235, 243, 237);
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723903682/prompt-engineering-essentials_on4ytt.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  /* CARD 4 */
+
+
+  .flip-card-front4{
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723903691/ccna_z7r7wz.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .flip-card-back4{
+    background-color: rgb(222, 252, 24);
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723903685/ccna-introduction-to-networks_wl9qxo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  
+  /* card5 */
+
+
+  .flip-card-front5{
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723911326/resweb_a9it6s.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .flip-card-back5{
+    background-color: rgb(0, 151, 40);
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723911323/responcive_web_wpvv6u.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/* card6 */
+
+  .flip-card-front6{
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723911319/linux_vnzzqr.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .flip-card-back6{
+    background-color:  rgb(53, 53, 53);
+    background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723911324/linuxcert_ntiaxu.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+/* card7*/ 
+ .flip-card-front7{
+  background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723903694/ethical_ry5agn.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.flip-card-back7{
+  background-color:  rgb(53, 53, 53);
+  background-image: url(https://res.cloudinary.com/drascwhs7/image/upload/v1723903699/ethical_101_zlhusa.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.titlef6{
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align:center;
+  margin-top:100%;
+  font-family: sans-serif;
+  text-shadow: 0 0 20px black;
+  position: relative;
+}
+
+
+
+  
+
+
+/*   **********************************************************Projects************************************************************* */
+
+
+.projects{
+  padding-left: 20px;
+  margin-top: 100px;
+}
+
+
+.projects h1{
+  padding-left: 20px;
+    font-family: "robotic";
+    font-size: 2.6rem;
+    text-decoration: underline red;
+    position: sticky;
+    top: 10%;
+}
+/* ***************************************************************footer********************************************************************** */
+
+footer{
+  background-color:rgba(226, 226, 226, 0.97);
+  text-align: center;
+
+}
+footer h2 ,footer p{
+  font-family: "robotic";
+  color:rgb(92, 92, 92);
+  text-align: center;
+}
+footer h2{
+  font-weight: bold;
+  font-size: 2.6rem;
+  text-decoration: underline 2px;
+}
+
+.contactIcon{
+  display: flex;
+  justify-content:center;
+  opacity: 60%;
+  margin: 10px;
+  padding: 10px;
+}
+
