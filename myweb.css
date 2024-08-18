@@ -48,7 +48,6 @@ nav{
 
 .navi{
     display: flex;
-    justify-content:space-around;
     padding:0px 45px 4px 45px;
     margin-top: 15px;
     text-decoration: none;
@@ -276,7 +275,6 @@ nav{
 
 .cardrow{
     display: flex;
-    justify-content: space-around;
     overflow-y: scroll;
     scrollbar-width:none;
     
