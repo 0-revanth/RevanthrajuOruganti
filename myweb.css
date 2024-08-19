@@ -285,6 +285,7 @@ nav{
 .flip-card {
     padding-left: 40px;
     margin-top: 25px;
+    margin-bottom:15px;
     background-color:transparent;
     min-width: 270px;
     min-height: 300px;
