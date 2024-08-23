@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Trad:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Splash&family=Trade+Winds&display=swap');
 
 
 *{
@@ -48,25 +49,27 @@ nav{
 
 
 .navi{
-    display: flex;
-    padding:0px 45px 4px 45px;
-    margin-top: 15px;
+     display: flex;
+    padding: 0 40px 0 40px;
+    margin-top: 25px;
+    margin-bottom: 1px;
     text-decoration: none;
-    color: rgb(251, 0, 255);  
-     
+    color: rgb(251, 0, 255); 
+    font-family: "Trade Winds", system-ui;
+    font-weight: 900;
+    font-style:italic; 
+    font-size: 1.4rem;
 }
     
     
     
-.home{
-  margin-left: 70%;
-}
+
 
 @keyframes navi-start{
   0%{
     
     color:rgb(255, 255, 255);
-    font-size:1.01rem;
+    font-size:1.41rem;
     text-shadow:0 0 5px rgb(0, 204, 255) ;
     
     background-color: rgba(0, 0, 0, 0.806);
@@ -85,7 +88,7 @@ nav{
 .navi:hover{
     transition: all 0.2s ease-in-out;
     color:rgb(255, 255, 255);
-    font-size:1.01rem;
+    font-size:1.45rem;
     text-shadow:0 0 5px rgb(0, 204, 255) ;
     
 }
